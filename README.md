@@ -18,11 +18,13 @@ generator-sundries has a some useful function. Auto compile SASS and Coffeescrip
 ## Getting Started
 
 - Install: node.js
-- Install basic packages: 'npm install -g bower grunt-cli yo'
-- Install needed packages: 'npm install -g coffee-script coffeelint csscomb csslint jshint node-sass'
+- Install basic packages 'npm install -g bower grunt-cli yo'
+- Install needed packages 'npm install -g coffee-script coffeelint csscomb csslint jshint node-sass'
+- Install this package 'npm install -g generator-sundries'
 - Install this package: 'npm install -g generator-sundries'
+- Write on console 'yo sundries'
 - Input Website name, Company name, Your name following instruct on console
-- Write 'grunt -v' on project root folder. if no error occured, generator-suncries is installed successfully
+- Write on console 'grunt -v' on project root folder. if no error occured, generator-suncries is installed successfully
 
 ## Usage
 
