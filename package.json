@@ -1,8 +1,9 @@
 {
   "name": "generator-sundries",
   "version": "0.9.1",
-  "description": "sundries is an environment generator for simple HTML pages using Yeoman, Bower, Grunt",
+  "description": "generator-sundries is a supporting tool for making simple webpage",
   "keywords": [
+    "generator-sundries",
     "yeoman-generator"
   ],
   "homepage": "https://github.com/Kaya-kz/generator-sundries",
