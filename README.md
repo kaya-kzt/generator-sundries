@@ -1,5 +1,5 @@
-# generator-sundries [![Build Status](https://secure.travis-ci.org/Kaya-kz/generator-sundries.png?branch=master)](http://travis-ci.org/yeoman/generator-webapp) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
-sundries is an environment generator for simple HTML pages.  
+# generator-sundries [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+generator-sundries is a supporting tool for making simple webpage.  
 A generator for [Yeoman](http://yeoman.io).  
 
 ![generator-sundries](http://kakurezatou.com/wordpress/wp-content/themes/kakurezatou/images/works/generator-sundries_logo.png)
