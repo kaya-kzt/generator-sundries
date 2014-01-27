@@ -1,0 +1,51 @@
+//
+// _mixin.scss
+// Mixin setting is written in this stylesheet.
+// Your favorite or customize mixins also write here.
+//
+
+//set link color
+@mixin linkColor($color) {
+     color: $color;
+     transition: all .4s ease;
+
+     &:hover, &:active, &:focus {
+         color: lighten($color, 20%);
+     }
+}
+
+//for make horizontal menu
+@mixin navigation-list {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    > li{
+        display:block;
+        float:left;
+        &:last-child{
+            margin-right:0px;
+        }
+    }
+}
+
+//create circle with css
+@mixin circle($size:200px) {
+    width: $size;
+    height: $size;
+    border-radius: 100%;
+}
+
+//for add emboss-effect
+@mixin box-emboss($opacity, $opacity2){
+    box-shadow:white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0;
+}
+
+//return black & white color
+@function black($opacity){
+    @return rgba(0,0,0,$opacity)
+}
+
+@function white($opacity){
+    @return rgba(255,255,255,$opacity)
+}

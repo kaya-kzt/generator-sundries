@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title><%= websiteName %></title>
+        <!--[if lt IE 9]>
+                <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+                <script src="js/html5shiv.js"></script>
+        <![endif]-->
+        <meta name="description" content="Input description">
+        <meta name="keywords" content="<%= circleName %>">
+        <meta name="copyright" content="Copyright &copy; <%= year %> <%= circleName %>" />
+        <meta name="author" content="<%= yourName %>"/>
+        <meta property="og:title" content="<%= websiteName %>"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Input description"/>
+        <meta property="og:image" content="Enter image url for OGP(more than 1200px*868px)"/>
+        <meta property="og:site_name" content="<%= circleName %>" />
+        <meta property="og:url" content="Enter website url"/>
+        <!-- build:css css/<%= _.dasherize(websiteName) %>.min.css -->
+        <link href="css/<%= _.dasherize(websiteName) %>.css" rel="stylesheet">
+        <!-- /build -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2/jquery.min.js" type="text/javascript"></script>
+        <!-- build:js js/<%= _.dasherize(websiteName) %>.min.js -->
+        <script src="js/<%= _.dasherize(websiteName) %>.js" type="text/javascript"></script>
+        <!-- /build -->
+    </head>
+
+    <body>
+        <header>
+            <h1><%= websiteName %></h1>
+        </header>
+
+        <footer>
+            <small>Copyright &copy; <%= year %> <%= circleName %></small>
+        </footer>
+    </body>
+</html>
