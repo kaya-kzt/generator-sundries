@@ -1,7 +1,7 @@
 {
   "name": "generator-sundries",
-  "version": "0.9.2",
-  "description": "generator-sundries is a supporting tool for making simple webpage",
+  "version": "0.9.3",
+  "description": "generator-sundries is a supporting tool for making simple webpage.",
   "keywords": [
     "generator-sundries",
     "yeoman-generator"
@@ -22,10 +22,10 @@
     "test": "mocha"
   },
   "dependencies": {
-    "yeoman-generator": "~0.14.0"
+    "yeoman-generator": "~0.17.0"
   },
   "devDependencies": {
-    "mocha": "~1.14.0"
+    "mocha": "~1.19.0"
   },
   "engines": {
     "node": ">=0.8.0",
